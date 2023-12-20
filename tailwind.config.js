@@ -7,6 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': {'max': '639px'},   // Small screens, up to 639px
+        'md': {'max': '767px'},   // Medium screens, up to 767px
+        'lg': {'max': '1023px'},  // Large screens, up to 1023px
+        'xl': {'max': '1279px'},  // Extra large screens, up to 1279px
+        '2xl': {'max': '1535px'}, // 2 Extra large screens, up to 1535px
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -15,4 +22,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
