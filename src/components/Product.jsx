@@ -41,10 +41,10 @@ const Product = () => {
           <div className="w-[350px] object-cover xl:w-[500px] md:w-[100%] pt-[40px]">
             <Image src={product_image} alt="product_image" />
             <div className=" flex justify-center pt-[40px]">
-              <p className=" font-medium text-[15px] text-center w-[75%]">
+              {/* <p className=" font-medium text-[15px] text-center w-[75%]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.printing and typesetting industry.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
